@@ -1,0 +1,72 @@
+/*******___<FOOTER>___********/
+/*            ↓↓             */
+
+
+.footer__navbar{
+    width: 100%;
+    max-width: 1440px;
+    height: 87px;
+}
+
+
+.navbar__container{
+    display: flex; 
+    max-width: 1440px;
+    justify-content: space-around;
+    align-items: center; 
+    flex-direction: row;
+    margin: 1.5rem 0;
+  }
+
+
+.footer__container__logo a{
+    color: #fff;
+    text-decoration: none;
+    font-family: "Russo one";
+    font-size: 25px;
+    font-style: normal;
+    line-height: normal;
+    cursor: default;
+    letter-spacing: 2px;
+}
+
+.container__navbar__menu{
+    margin-left: 22%;
+}
+
+.footer__menu__item a{
+    color:#fff;
+    font-size: 20px;
+}
+
+.footer__menu__item a:hover{
+    text-decoration:underline;
+    text-underline-offset: .7em;
+}
+
+.footer__registered{
+    display: flex;
+    background: #000;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 55px;
+}
+
+.registered__border{
+    width: 100%;
+    max-width: 1160px;
+    border: none;
+    background-color: rgba(230, 232, 236, 0.40);
+    height: 1px; 
+}
+
+.registered__text{
+    color: #A1A6B4;
+    font-family: "Anonymous Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 18px;
+}

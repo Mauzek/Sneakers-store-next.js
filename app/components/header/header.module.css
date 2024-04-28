@@ -1,0 +1,51 @@
+
+.navbar{
+    width: 100%;
+    max-width: 1440px;
+}
+
+.navbar__container{
+    display: flex; 
+    max-width: 1440px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+  }
+
+.header__container__logo {
+    color: #000;
+    text-decoration: none;
+    font-family: "Russo one";
+    font-size: 30px;
+    font-style: normal;
+    line-height: normal;
+    cursor: default;
+    letter-spacing: 2px;
+}
+
+.header__menu__item a{
+    display: flex;
+    padding: 10px;
+    color: #000;
+    font-size: 26px;
+    border: solid 4px #000;
+    transition: 0.2s all;
+}
+
+.header__menu__item a:hover{
+    background-color: #000;
+    color: yellow;
+}
+
+.container__navbar__menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.image{
+    max-width: 30px;
+}
+
+
+
